@@ -1,0 +1,16 @@
+{
+  "name": "BrowserTesting",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.20.4"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "express": "^4.21.0",
+    "os": "^0.1.2",
+    "pupeteer": "^0.0.1"
+  }
+}
