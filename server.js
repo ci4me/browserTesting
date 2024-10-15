@@ -36,7 +36,7 @@ app.get('/get-server-ip', (req, res) => {
     res.json({ ip: serverIP });
 });
 
-app.get('/:base64Url', auth, async (req, res) => {
+app.get('/ss/:base64Url', auth, async (req, res) => {
     const base64Url = req.params.base64Url;
 
     try {
