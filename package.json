@@ -1,0 +1,13 @@
+{
+  "name": "browser_testing",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "express": "^4.21.0",
+    "os": "^0.1.2",
+    "puppeteer": "^1.7.0"
+  }
+}
